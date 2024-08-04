@@ -271,4 +271,9 @@ final class RequestOptions
      * force_ip_resolve: (bool) Force client to use only ipv4 or ipv6 protocol
      */
     public const FORCE_IP_RESOLVE = 'force_ip_resolve';
+
+    /**
+     * base_uri: (string) Base URI for the request.
+     */
+    public const BASE_URI = 'base_uri';
 }
